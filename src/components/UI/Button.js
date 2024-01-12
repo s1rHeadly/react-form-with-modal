@@ -1,16 +1,9 @@
 import React from 'react';
 
-import classes from './Button.module.css';
 
-const Button = ({type, onClick, children}) => {
+const Button = () => {
   return (
-    <button
-      className={classes.button}
-      type={type || 'button'}
-      onClick={onClick}
-    >
-      {children}
-    </button>
+    <h3>button</h3>
   );
 };
 
